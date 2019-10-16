@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Comment from './Comment.js'
+import Comment from './Comment';
 
 export default class BlogPost extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class BlogPost extends Component {
         <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
-        
+      
       </div>
     );
   }
